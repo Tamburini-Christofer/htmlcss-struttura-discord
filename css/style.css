@@ -7,35 +7,47 @@
     box-sizing: border-box;
 }
 
-#contenitore_pagina{
-    width: 70%;
-    margin: 0 auto;
-}
-
 #header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#B5D5E4;
     width: 100%;
-    height: 70px;
+    height: 400px;
 }
 
 .contenuto_header{
-    display: flex;
-    /*DEBUG*/
+    
+    width: 20%;
+    height: 80%;
+    background-color: #DDA41F;
+
+}
+
+.bordo{
+    border: 6px dashed black;
 }
 
 /*Sezioni*/
+
+.flex_sezioni{
+    display: flex;
+    flex-direction: column;
+}
+
+.gruppo{
+    background-color: #EF82ED;
+}
 
 .sezione{
     background-color: white;
     display: flex;
     /*DEBUG*/
-    height: 1200px;
+    height: 1600px;
     align-items: center;
 }
 
 .blu{
-    justify-content: center;
-    align-items: center;
     background-color: #020D85;
 
 }
@@ -56,16 +68,26 @@
     width: 60%;
     height: 80%;
     margin: 0 auto;
-     /*DEBUG*/
-    background-color: brown;
+    justify-content: center;
 }
 
-.rosa{
+.violetto{
     background-color:#EF82ED;
+    width: 40%;
 }
 
 .verde{
     background-color: #218B21;
+    width: 60%;
+}
+
+.rosso{
+    background-color:#F08180;
+    width: 60%;
+}
+.azzurretto{
+    background-color: #20B3AA ;
+    width: 10%;
 }
 
 .contenuto_figli_sezione_azzurro{
@@ -79,7 +101,4 @@
 
 /*Footer*/
 
-.footer .nero{
-    border-color: 2px solid white;
-    border-top: 10px;
-}
+
