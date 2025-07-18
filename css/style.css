@@ -1,0 +1,33 @@
+/* Generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color:#B5D5E4;
+    width: 100%;
+    height: 70px;
+}
+
+.contenuto_header{
+    display: flex;
+    /*DEBUG*/
+}
+
+/*Sezioni*/
+
+.sezione{
+    height: 200px;
+    background-color: white ;
+}
+
+.blu{
+    background-color: #020D85;
+}
+
+.grigio{
+    background-color: #D4D2D4 ;
+}
