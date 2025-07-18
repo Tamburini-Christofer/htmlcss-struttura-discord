@@ -7,18 +7,37 @@
     box-sizing: border-box;
 }
 
+span{
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.sinsitra{
+    
+}
+
 #header{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color:#B5D5E4;
     width: 100%;
-    height: 400px;
+    height: 200px;
 }
 
 .contenuto_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 80%;
+    background-color: #DDA41F;
+
+}
+
+.big{
     
-    width: 20%;
+    width: 40%;
     height: 80%;
     background-color: #DDA41F;
 
@@ -41,6 +60,7 @@
 
 .sezione{
     background-color: white;
+    justify-content: center;
     display: flex;
     /*DEBUG*/
     height: 1600px;
@@ -101,4 +121,30 @@
 
 /*Footer*/
 
+.contenuto_sezione_rosso{
+    width: 20%;
+    height: 90%;
+    background-color:#F08180 ;
+}
 
+.contenuto_sezione_azzurretto{
+    width: 10%;
+    height: 90%;
+    background-color:#20B3AA ;
+}
+
+.wbordo{
+     border: 6px dashed rgb(255, 255, 255);
+}
+
+.footer{
+    border-top: 6px solid white;
+    height: 400px;
+    
+}
+.contenuto_footer{
+    background-color:#20B3AA;
+    height: 80%;
+    width: 60%;
+    align-self:flex-end;
+}
