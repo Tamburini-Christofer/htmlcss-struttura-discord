@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+#contenitore_pagina{
+    width: 70%;
+    margin: 0 auto;
+}
+
 #header{
     background-color:#B5D5E4;
     width: 100%;
@@ -21,14 +26,60 @@
 /*Sezioni*/
 
 .sezione{
-    height: 200px;
-    background-color: white ;
+    background-color: white;
+    display: flex;
+    /*DEBUG*/
+    height: 1200px;
+    align-items: center;
 }
 
 .blu{
+    justify-content: center;
+    align-items: center;
     background-color: #020D85;
+
 }
 
 .grigio{
-    background-color: #D4D2D4 ;
+    background-color: #D4D2D4;
+}
+
+.nero{
+     background-color: black;
+}
+
+/*Sottosezioni*/
+
+
+.contenuto_sezione{
+    display: flex;
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+     /*DEBUG*/
+    background-color: brown;
+}
+
+.rosa{
+    background-color:#EF82ED;
+}
+
+.verde{
+    background-color: #218B21;
+}
+
+.contenuto_figli_sezione_azzurro{
+    width: 60%;
+    background-color: #1E90FF;
+}
+.contenuto_figli_sezione_rosa{
+    background-color:#FFC0CA ;
+    width: 40%;
+}
+
+/*Footer*/
+
+.footer .nero{
+    border-color: 2px solid white;
+    border-top: 10px;
 }
