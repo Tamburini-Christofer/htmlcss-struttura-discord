@@ -12,9 +12,7 @@ span{
     padding-left: 10px;
 }
 
-.sinsitra{
-    
-}
+
 
 #header{
     display: flex;
@@ -139,12 +137,21 @@ span{
 
 .footer{
     border-top: 6px solid white;
-    height: 400px;
+    height: 200px;
     
 }
 .contenuto_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color:#20B3AA;
     height: 80%;
     width: 60%;
     align-self:flex-end;
+}
+
+.footerLB{
+    font-size: 50px;
+    background-color: #FEB8C2;
+    padding: 10px 30px;
 }
