@@ -12,12 +12,26 @@ span{
     padding-left: 10px;
 }
 
+.flex_sezioni{
+    display: flex;
+    flex-direction: column;
+}
 
+.bordo{
+    border: 6px dashed black;
+}
+
+.wbordo{
+     border: 6px dashed rgb(255, 255, 255);
+}
+
+/*header*/
 
 #header{
     display: flex;
     align-items: center;
     justify-content: center;
+
     background-color:#B5D5E4;
     width: 100%;
     height: 200px;
@@ -25,49 +39,37 @@ span{
 
 .contenuto_header{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
     width: 10%;
     height: 80%;
     background-color: #DDA41F;
-
 }
 
-.big{
-    
+.big{ 
     width: 40%;
     height: 80%;
     background-color: #DDA41F;
-
-}
-
-.bordo{
-    border: 6px dashed black;
 }
 
 /*Sezioni*/
-
-.flex_sezioni{
-    display: flex;
-    flex-direction: column;
-}
-
-.gruppo{
-    background-color: #EF82ED;
-}
 
 .sezione{
     background-color: white;
     justify-content: center;
     display: flex;
-    /*DEBUG*/
+
     height: 1600px;
     align-items: center;
 }
 
+.sezione_big{
+    height: 2400px;
+} 
+
 .blu{
     background-color: #020D85;
-
 }
 
 .grigio{
@@ -78,11 +80,9 @@ span{
      background-color: black;
 }
 
-/*Sottosezioni*/
-
-
 .contenuto_sezione{
     display: flex;
+
     width: 60%;
     height: 80%;
     margin: 0 auto;
@@ -97,6 +97,7 @@ span{
 .verde{
     background-color: #218B21;
     width: 60%;
+    height: 90%;
 }
 
 .rosso{
@@ -112,9 +113,9 @@ span{
     width: 60%;
     background-color: #1E90FF;
 }
-.contenuto_figli_sezione_rosa{
-    background-color:#FFC0CA ;
+.contenuto_figli_sezione_rosa{   
     width: 40%;
+    background-color:#FFC0CA;
 }
 
 /*Footer*/
@@ -131,10 +132,6 @@ span{
     background-color:#20B3AA ;
 }
 
-.wbordo{
-     border: 6px dashed rgb(255, 255, 255);
-}
-
 .footer{
     border-top: 6px solid white;
     height: 200px;
@@ -144,14 +141,15 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#20B3AA;
+    align-self:flex-end;
+
     height: 80%;
     width: 60%;
-    align-self:flex-end;
+    background-color:#20B3AA;
 }
 
 .footerLB{
     font-size: 50px;
-    background-color: #FEB8C2;
     padding: 10px 30px;
+    background-color: #FEB8C2;
 }
