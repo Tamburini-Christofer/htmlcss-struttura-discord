@@ -8,36 +8,39 @@
 }
 
 span{
-    font-size: 50px;
-    padding-left: 10px;
-}
-
-.flex_sezioni{
-    display: flex;
-    flex-direction: column;
+    font-size: 24px;
 }
 
 .bordo{
-    border: 6px dashed black;
+    border: 2px dashed black;
 }
 
 .wbordo{
-     border: 6px dashed rgb(255, 255, 255);
+     border: 2px dashed rgb(255, 255, 255);
+}
+
+/*Body*/
+
+.flex_sezioni{
+    /*Regole Flex*/
+    display: flex;
+    flex-direction: column;
 }
 
 /*header*/
 
 #header{
+    /*Regole Flex*/
     display: flex;
     align-items: center;
     justify-content: center;
 
     background-color:#B5D5E4;
-    width: 100%;
-    height: 200px;
+    height: 80px;
 }
 
 .contenuto_header{
+    /*Regole Flex*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,19 +59,21 @@ span{
 /*Sezioni*/
 
 .sezione{
-    background-color: white;
+    /*Regole Flex*/
+    align-items: center; 
     justify-content: center;
     display: flex;
 
-    height: 1600px;
-    align-items: center;
+    height: 400px;
+    background-color: white;
 }
 
 .sezione_big{
-    height: 2400px;
+    height: 800px;
 } 
 
 .blu{
+    height: 300px;
     background-color: #020D85;
 }
 
@@ -80,33 +85,35 @@ span{
      background-color: black;
 }
 
+.verde{
+    width: 60%;
+    height: 90%;
+    background-color: #218B21;
+}
+
+.rosso{
+    width: 60%;
+    background-color:#F08180;  
+}
+.azzurretto{ 
+    width: 10%;
+    background-color: #20B3AA ;
+}
+
 .contenuto_sezione{
+    /*Regole Flex*/
     display: flex;
+    justify-content: center;
 
     width: 60%;
     height: 80%;
     margin: 0 auto;
-    justify-content: center;
+    
 }
 
 .violetto{
-    background-color:#EF82ED;
     width: 40%;
-}
-
-.verde{
-    background-color: #218B21;
-    width: 60%;
-    height: 90%;
-}
-
-.rosso{
-    background-color:#F08180;
-    width: 60%;
-}
-.azzurretto{
-    background-color: #20B3AA ;
-    width: 10%;
+    background-color:#EF82ED;
 }
 
 .contenuto_figli_sezione_azzurro{
@@ -130,14 +137,19 @@ span{
     width: 10%;
     height: 90%;
     background-color:#20B3AA ;
-}
-
-.footer{
-    border-top: 6px solid white;
-    height: 200px;
     
 }
+
+/*II Footer*/ 
+
+.footer{
+    border-top: 2px solid white;
+    height: 100px;
+    
+}
+
 .contenuto_footer{
+    /*Regole Flex*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,7 +161,7 @@ span{
 }
 
 .footerLB{
-    font-size: 50px;
+    font-size: 16px;
     padding: 10px 30px;
     background-color: #FEB8C2;
 }
