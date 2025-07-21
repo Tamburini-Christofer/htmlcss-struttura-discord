@@ -7,9 +7,26 @@
     box-sizing: border-box;
 }
 
-span{
-    font-size: 20px;
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text_white a{
+    color: white;
+}
+.text_black{
+    color: black;
+}
+
+/*DEBUG*/
 
 .bordo{
     border: 2px dashed black;
@@ -18,6 +35,32 @@ span{
 .wbordo{
      border: 2px dashed rgb(255, 255, 255);
 }
+
+span{
+    font-size: 20px;
+}
+
+/*Bottoni*/
+/*
+button{
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.bazzurro{
+    color: white;
+    background-color:#8EA1E2;
+}
+
+.bbianco{
+    background-color: white;
+}
+
+.bnero{
+    color: white;
+    background-color:black;
+}
+*/
 
 /*Body*/
 
@@ -34,7 +77,6 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color:#B5D5E4;
     height: 80px;
 }
@@ -47,13 +89,21 @@ span{
 
     width: 10%;
     height: 80%;
+    /*DEBUG*/
     background-color: #DDA41F;
 }
 
 .big{ 
     width: 40%;
     height: 80%;
+    /*DEBUG*/
     background-color: #DDA41F;
+}
+
+.contenitore_link{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Sezioni*/
@@ -82,21 +132,24 @@ span{
 }
 
 .nero{
-     background-color: black;
+     background-color: #23272A;
 }
 
 .verde{
     width: 60%;
     height: 90%;
+    /*DEBUG*/
     background-color: #218B21;
 }
 
 .rosso{
     width: 60%;
+    /*DEBUG*/
     background-color:#F08180;  
 }
 .azzurretto{ 
     width: 10%;
+    /*DEBUG*/
     background-color: #20B3AA ;
 }
 
@@ -112,15 +165,18 @@ span{
 
 .violetto{
     width: 40%;
+    /*DEBUG*/
     background-color:#EF82ED;
 }
 
 .contenuto_figli_sezione_azzurro{
     width: 60%;
+    /*DEBUG*/
     background-color: #1E90FF;
 }
 .contenuto_figli_sezione_rosa{   
     width: 40%;
+    /*DEBUG*/
     background-color:#FFC0CA;
 }
 
@@ -129,14 +185,15 @@ span{
 .contenuto_sezione_rosso{
     width: 20%;
     height: 90%;
+    /*DEBUG*/
     background-color:#F08180 ;
 }
 
 .contenuto_sezione_azzurretto{
     width: 10%;
     height: 90%;
-    background-color:#20B3AA ;
-    
+    /*DEBUG*/
+    background-color:#20B3AA ;  
 }
 
 /*II Footer*/ 
@@ -144,7 +201,6 @@ span{
 .footer{
     border-top: 2px solid white;
     height: 100px;
-    
 }
 
 .contenuto_footer{
@@ -156,11 +212,13 @@ span{
 
     height: 80%;
     width: 60%;
+    /*DEBUG*/
     background-color:#20B3AA;
 }
 
 .footerLB{
     font-size: 16px;
     padding: 10px 30px;
+    /*DEBUG*/
     background-color: #FEB8C2;
 }
